@@ -1,6 +1,6 @@
 #!/bin/sh
 <<EOF
- cd ~/custome/nodejs
+ cd ~/custom/nodejs
  git pull
  npm install — production
  pm2 restart all
