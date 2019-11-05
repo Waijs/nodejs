@@ -1,10 +1,8 @@
 var express = require('express');
 var app = express();
-const dotenv = require('dotenv');
-dotenv.config();
-const port = process.env.PORT;
+const { endpoint, masterKey, port } = require('./config');
 console.log(`Your port is ${port}`);
-// view engine setup
+//view engine setup
 app.set('views', 'views');
 app.set('view engine', 'pug');
 app.use(express.static('public'));
