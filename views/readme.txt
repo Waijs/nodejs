@@ -1,0 +1,1 @@
+This is where we will keep all of the files that are responsible for displaying dynamic content to the user.

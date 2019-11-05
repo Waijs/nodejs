@@ -1,0 +1,1 @@
+This is where all of your static web files will go, including HTML, CSS, front-end JavaScript, images, and fonts. ‘Static’ means that these files don’t contain any dynamic server-side information.
